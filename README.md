@@ -14,7 +14,7 @@ Metodologia:
 
 ---
 
-###Tarefa:
+**Tarefa:**
 
 Desenvolver uma aplicação que utilize dos recursos aprendido nas disciplinas de Programming and Data Persistence e Engenharia de Software.  Descrever os processos considerando a aplicação escolhida.Desenvolver uma aplicação que utilize dos recursos aprendido nas disciplinas de Programming and Data Persistence e Engenharia de Software.  Descrever os processos considerando a aplicação escolhida. 
 
@@ -25,8 +25,7 @@ Especificar os Requisitos de Software:
 - Regras de Negócio (RN)
 - Requisito Não-funcionais (RNF)
   
-💡Busque utilizar de boas práticas;
-💡Documentar o software;
+      💡Busque utilizar de boas práticas; Documentar o software;
 
 > Aplicação deve considerar uma estrutura básica de CRUD (Create: Criar ou adicionar novas entradas; Read: Ler, recuperar ou listar as entradas existentes; 
 
