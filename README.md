@@ -40,3 +40,5 @@ https://pt.wikipedia.org/wiki/CRUD•Procure utilizar do padrão MVC (Model-View
 
 -------
 Favor sinchronizar o seu git e enviar os commits de alterações com a descrição da alteração.
+
+    Como utilizar o GIT?? https://youtu.be/Fj3gtbaF8WA
