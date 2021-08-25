@@ -1,0 +1,12 @@
+C:\Users\Lincoln Ribeiro\Desktop\HOWIII\Controle de Estoque\Controle de Estoque\bin\Debug\Controle de Estoque.exe.config
+C:\Users\Lincoln Ribeiro\Desktop\HOWIII\Controle de Estoque\Controle de Estoque\bin\Debug\Controle de Estoque.exe
+C:\Users\Lincoln Ribeiro\Desktop\HOWIII\Controle de Estoque\Controle de Estoque\bin\Debug\Controle de Estoque.pdb
+C:\Users\Lincoln Ribeiro\Desktop\HOWIII\Controle de Estoque\Controle de Estoque\obj\Debug\Controle de Estoque.csprojAssemblyReference.cache
+C:\Users\Lincoln Ribeiro\Desktop\HOWIII\Controle de Estoque\Controle de Estoque\obj\Debug\Controle_de_Estoque.F_Login.resources
+C:\Users\Lincoln Ribeiro\Desktop\HOWIII\Controle de Estoque\Controle de Estoque\obj\Debug\Controle_de_Estoque.F_Menu.resources
+C:\Users\Lincoln Ribeiro\Desktop\HOWIII\Controle de Estoque\Controle de Estoque\obj\Debug\Controle_de_Estoque.F_Cadastro.resources
+C:\Users\Lincoln Ribeiro\Desktop\HOWIII\Controle de Estoque\Controle de Estoque\obj\Debug\Controle_de_Estoque.Properties.Resources.resources
+C:\Users\Lincoln Ribeiro\Desktop\HOWIII\Controle de Estoque\Controle de Estoque\obj\Debug\Controle de Estoque.csproj.GenerateResource.cache
+C:\Users\Lincoln Ribeiro\Desktop\HOWIII\Controle de Estoque\Controle de Estoque\obj\Debug\Controle de Estoque.csproj.CoreCompileInputs.cache
+C:\Users\Lincoln Ribeiro\Desktop\HOWIII\Controle de Estoque\Controle de Estoque\obj\Debug\Controle de Estoque.exe
+C:\Users\Lincoln Ribeiro\Desktop\HOWIII\Controle de Estoque\Controle de Estoque\obj\Debug\Controle de Estoque.pdb
