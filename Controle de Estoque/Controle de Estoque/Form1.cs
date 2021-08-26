@@ -36,5 +36,10 @@ namespace Controle_de_Estoque
             this.Close();
 
         }
+
+        private void lb_acessar_sistema_Click(object sender, EventArgs e)
+        {
+            // test para um branch de comentario 
+        }
     }
 }
