@@ -66,6 +66,7 @@
             this.lb_acessar_sistema.Size = new System.Drawing.Size(339, 33);
             this.lb_acessar_sistema.TabIndex = 2;
             this.lb_acessar_sistema.Text = "Digite seu Login e Senha";
+            this.lb_acessar_sistema.Click += new System.EventHandler(this.lb_acessar_sistema_Click);
             // 
             // lb_usuario
             // 
