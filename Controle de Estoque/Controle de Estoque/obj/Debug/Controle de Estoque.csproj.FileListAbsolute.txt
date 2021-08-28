@@ -10,3 +10,15 @@ C:\Users\Lincoln Ribeiro\Desktop\HOWIII\Controle de Estoque\Controle de Estoque\
 C:\Users\Lincoln Ribeiro\Desktop\HOWIII\Controle de Estoque\Controle de Estoque\obj\Debug\Controle de Estoque.csproj.CoreCompileInputs.cache
 C:\Users\Lincoln Ribeiro\Desktop\HOWIII\Controle de Estoque\Controle de Estoque\obj\Debug\Controle de Estoque.exe
 C:\Users\Lincoln Ribeiro\Desktop\HOWIII\Controle de Estoque\Controle de Estoque\obj\Debug\Controle de Estoque.pdb
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\bin\Debug\Controle de Estoque.exe.config
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\bin\Debug\Controle de Estoque.exe
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\bin\Debug\Controle de Estoque.pdb
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\obj\Debug\Controle de Estoque.csproj.AssemblyReference.cache
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\obj\Debug\Controle_de_Estoque.F_Login.resources
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\obj\Debug\Controle_de_Estoque.F_Menu.resources
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\obj\Debug\Controle_de_Estoque.F_Cadastro.resources
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\obj\Debug\Controle_de_Estoque.Properties.Resources.resources
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\obj\Debug\Controle de Estoque.csproj.GenerateResource.cache
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\obj\Debug\Controle de Estoque.csproj.CoreCompileInputs.cache
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\obj\Debug\Controle de Estoque.exe
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\obj\Debug\Controle de Estoque.pdb
