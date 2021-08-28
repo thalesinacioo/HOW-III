@@ -21,7 +21,7 @@ namespace Controle_de_Estoque
 
         private void btn_Sair_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Close(); //comentario
 
         }
 
