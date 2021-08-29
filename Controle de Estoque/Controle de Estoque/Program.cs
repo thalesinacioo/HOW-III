@@ -16,7 +16,7 @@ namespace Controle_de_Estoque
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new F_Login());
+            Application.Run(new F_Menu());
         }
     }
 }

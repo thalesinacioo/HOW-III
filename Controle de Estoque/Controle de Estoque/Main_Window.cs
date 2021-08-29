@@ -7,7 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using MySql.Data.MySqlClient;
+/*
+ * para depois: 
+ * using MySql.Data.MySqlClient;
+ */
 
 
 
@@ -23,7 +26,7 @@ namespace Controle_de_Estoque
         
         private void btn_Sair_Click(object sender, EventArgs e)
         {
-            this.Close(); //comentario
+            this.Close();
 
         }
         /*
@@ -169,6 +172,21 @@ namespace Controle_de_Estoque
         }
 
         private void btn_AdicionarModelo_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_Incluir_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
         {
 
         }
