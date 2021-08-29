@@ -22,3 +22,17 @@ D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Es
 D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\obj\Debug\Controle de Estoque.csproj.CoreCompileInputs.cache
 D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\obj\Debug\Controle de Estoque.exe
 D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\obj\Debug\Controle de Estoque.pdb
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\bin\Debug\MySql.Data.dll
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\bin\Debug\Google.Protobuf.dll
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\bin\Debug\Zstandard.Net.dll
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\bin\Debug\BouncyCastle.Crypto.dll
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\bin\Debug\Ubiety.Dns.Core.dll
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\bin\Debug\System.Memory.dll
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\bin\Debug\System.Buffers.dll
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\bin\Debug\K4os.Compression.LZ4.dll
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\bin\Debug\K4os.Hash.xxHash.dll
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\bin\Debug\System.Numerics.Vectors.dll
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\bin\Debug\MySql.Data.xml
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\obj\Debug\Controle de Estoque.csproj.CopyComplete
