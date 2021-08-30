@@ -38,11 +38,12 @@
             this.list_NovaLista = new System.Windows.Forms.ComboBox();
             this.tab_Estoque = new System.Windows.Forms.TabPage();
             this.bt_salvardb = new System.Windows.Forms.Button();
-            this.grid_Estoque = new System.Windows.Forms.DataGridView();
             this.tab_Cadastro = new System.Windows.Forms.TabPage();
             this.Abas_2 = new System.Windows.Forms.TabControl();
             this.tab_ModeloExistente = new System.Windows.Forms.TabPage();
             this.group_incluirestoque = new System.Windows.Forms.GroupBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -70,6 +71,7 @@
             this.NumFaixa_INICIAL = new System.Windows.Forms.NumericUpDown();
             this.lbl_De = new System.Windows.Forms.Label();
             this.lbl_Ate = new System.Windows.Forms.Label();
+            this.lbl_privilegio = new System.Windows.Forms.Label();
             this.AllTabs = new System.Windows.Forms.TabControl();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.sairToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -79,18 +81,16 @@
             this.lbl_password = new System.Windows.Forms.Label();
             this.btn_passenter = new System.Windows.Forms.Button();
             this.txt_pass = new System.Windows.Forms.TextBox();
-            this.lbl_privilegio = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Nome = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Modelo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Cor = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Numeracao = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Descricao = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Quantidade = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Valor = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Cor = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.grid_Listas)).BeginInit();
             this.tab_Estoque.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.grid_Estoque)).BeginInit();
             this.tab_Cadastro.SuspendLayout();
             this.Abas_2.SuspendLayout();
             this.tab_ModeloExistente.SuspendLayout();
@@ -103,6 +103,7 @@
             this.AllTabs.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.group_entrarcomo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // grid_Listas
@@ -165,8 +166,8 @@
             // 
             // tab_Estoque
             // 
+            this.tab_Estoque.Controls.Add(this.dataGridView1);
             this.tab_Estoque.Controls.Add(this.bt_salvardb);
-            this.tab_Estoque.Controls.Add(this.grid_Estoque);
             this.tab_Estoque.Location = new System.Drawing.Point(4, 22);
             this.tab_Estoque.Name = "tab_Estoque";
             this.tab_Estoque.Size = new System.Drawing.Size(398, 360);
@@ -183,23 +184,6 @@
             this.bt_salvardb.Text = "Salvar alterações";
             this.bt_salvardb.UseVisualStyleBackColor = true;
             this.bt_salvardb.Click += new System.EventHandler(this.button1_Click_1);
-            // 
-            // grid_Estoque
-            // 
-            this.grid_Estoque.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.grid_Estoque.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grid_Estoque.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Nome,
-            this.Modelo,
-            this.Numeracao,
-            this.Quantidade,
-            this.Valor,
-            this.Cor});
-            this.grid_Estoque.Location = new System.Drawing.Point(30, 34);
-            this.grid_Estoque.Name = "grid_Estoque";
-            this.grid_Estoque.Size = new System.Drawing.Size(343, 267);
-            this.grid_Estoque.TabIndex = 17;
-            this.grid_Estoque.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grid_Estoque_CellContentClick);
             // 
             // tab_Cadastro
             // 
@@ -253,11 +237,29 @@
             this.group_incluirestoque.Controls.Add(this.label1);
             this.group_incluirestoque.Location = new System.Drawing.Point(15, 12);
             this.group_incluirestoque.Name = "group_incluirestoque";
-            this.group_incluirestoque.Size = new System.Drawing.Size(356, 295);
+            this.group_incluirestoque.Size = new System.Drawing.Size(356, 304);
             this.group_incluirestoque.TabIndex = 22;
             this.group_incluirestoque.TabStop = false;
             this.group_incluirestoque.Text = "Incluir no estoque";
             this.group_incluirestoque.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(90, 213);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(216, 20);
+            this.textBox3.TabIndex = 36;
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(50, 216);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(34, 13);
+            this.label9.TabIndex = 35;
+            this.label9.Text = "Valor:";
+            this.label9.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // comboBox1
             // 
@@ -267,7 +269,7 @@
             "KIDS (Pequenos) (23-32)",
             "TOP (Tira grossa) (33-47)",
             "SLIM (Tira fina) (33-47)"});
-            this.comboBox1.Location = new System.Drawing.Point(90, 35);
+            this.comboBox1.Location = new System.Drawing.Point(90, 19);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(216, 21);
             this.comboBox1.TabIndex = 34;
@@ -275,7 +277,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(46, 38);
+            this.label6.Location = new System.Drawing.Point(46, 22);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(38, 13);
             this.label6.TabIndex = 33;
@@ -284,7 +286,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(26, 146);
+            this.label5.Location = new System.Drawing.Point(26, 130);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(58, 13);
             this.label5.TabIndex = 32;
@@ -292,15 +294,17 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(90, 143);
+            this.textBox1.Location = new System.Drawing.Point(90, 127);
+            this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(216, 20);
+            this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBox1.Size = new System.Drawing.Size(216, 54);
             this.textBox1.TabIndex = 31;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(58, 92);
+            this.label4.Location = new System.Drawing.Point(58, 76);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(26, 13);
             this.label4.TabIndex = 30;
@@ -341,14 +345,14 @@
             "45",
             "46",
             "47"});
-            this.list_Cor.Location = new System.Drawing.Point(90, 89);
+            this.list_Cor.Location = new System.Drawing.Point(90, 73);
             this.list_Cor.Name = "list_Cor";
             this.list_Cor.Size = new System.Drawing.Size(216, 21);
             this.list_Cor.TabIndex = 29;
             // 
             // btn_Incluir
             // 
-            this.btn_Incluir.Location = new System.Drawing.Point(89, 226);
+            this.btn_Incluir.Location = new System.Drawing.Point(89, 238);
             this.btn_Incluir.Name = "btn_Incluir";
             this.btn_Incluir.Size = new System.Drawing.Size(218, 55);
             this.btn_Incluir.TabIndex = 28;
@@ -364,7 +368,7 @@
             "KIDS (Pequenos) (23-32)",
             "TOP (Tira grossa) (33-47)",
             "SLIM (Tira fina) (33-47)"});
-            this.list_Modelo.Location = new System.Drawing.Point(90, 62);
+            this.list_Modelo.Location = new System.Drawing.Point(90, 46);
             this.list_Modelo.Name = "list_Modelo";
             this.list_Modelo.Size = new System.Drawing.Size(216, 21);
             this.list_Modelo.TabIndex = 27;
@@ -372,7 +376,7 @@
             // 
             // txt_Quantidade
             // 
-            this.txt_Quantidade.Location = new System.Drawing.Point(90, 169);
+            this.txt_Quantidade.Location = new System.Drawing.Point(90, 187);
             this.txt_Quantidade.Name = "txt_Quantidade";
             this.txt_Quantidade.Size = new System.Drawing.Size(216, 20);
             this.txt_Quantidade.TabIndex = 26;
@@ -412,7 +416,7 @@
             "45",
             "46",
             "47"});
-            this.list_Numeracao.Location = new System.Drawing.Point(90, 116);
+            this.list_Numeracao.Location = new System.Drawing.Point(90, 100);
             this.list_Numeracao.Name = "list_Numeracao";
             this.list_Numeracao.Size = new System.Drawing.Size(216, 21);
             this.list_Numeracao.TabIndex = 25;
@@ -421,7 +425,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(19, 172);
+            this.label3.Location = new System.Drawing.Point(19, 190);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(65, 13);
             this.label3.TabIndex = 24;
@@ -430,7 +434,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(39, 65);
+            this.label2.Location = new System.Drawing.Point(39, 49);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(45, 13);
             this.label2.TabIndex = 23;
@@ -439,7 +443,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(19, 119);
+            this.label1.Location = new System.Drawing.Point(19, 103);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(65, 13);
             this.label1.TabIndex = 22;
@@ -466,7 +470,7 @@
             this.group_AddModelo.Controls.Add(this.lbl_NomeNovoModelo);
             this.group_AddModelo.Controls.Add(this.txt_NomeNovoModelo);
             this.group_AddModelo.Controls.Add(this.groupBox2);
-            this.group_AddModelo.Location = new System.Drawing.Point(15, 12);
+            this.group_AddModelo.Location = new System.Drawing.Point(15, 13);
             this.group_AddModelo.Name = "group_AddModelo";
             this.group_AddModelo.Size = new System.Drawing.Size(356, 294);
             this.group_AddModelo.TabIndex = 16;
@@ -617,6 +621,17 @@
             this.lbl_Ate.TabIndex = 4;
             this.lbl_Ate.Text = "Até:";
             // 
+            // lbl_privilegio
+            // 
+            this.lbl_privilegio.AutoSize = true;
+            this.lbl_privilegio.Location = new System.Drawing.Point(41, 164);
+            this.lbl_privilegio.Name = "lbl_privilegio";
+            this.lbl_privilegio.Size = new System.Drawing.Size(306, 26);
+            this.lbl_privilegio.TabIndex = 35;
+            this.lbl_privilegio.Text = "Você não tem privilégios suficientes para acessar este recurso. \r\nPor favor, cont" +
+    "ate seu gerente.";
+            this.lbl_privilegio.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // AllTabs
             // 
             this.AllTabs.Controls.Add(this.tab_Cadastro);
@@ -711,33 +726,21 @@
             this.txt_pass.TabIndex = 33;
             this.txt_pass.KeyDown += new System.Windows.Forms.KeyEventHandler(this.password_KeyDown);
             // 
-            // lbl_privilegio
+            // dataGridView1
             // 
-            this.lbl_privilegio.AutoSize = true;
-            this.lbl_privilegio.Location = new System.Drawing.Point(41, 164);
-            this.lbl_privilegio.Name = "lbl_privilegio";
-            this.lbl_privilegio.Size = new System.Drawing.Size(306, 26);
-            this.lbl_privilegio.TabIndex = 35;
-            this.lbl_privilegio.Text = "Você não tem privilégios suficientes para acessar este recurso. \r\nPor favor, cont" +
-    "ate seu gerente.";
-            this.lbl_privilegio.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(90, 195);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(216, 20);
-            this.textBox3.TabIndex = 36;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(50, 198);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(34, 13);
-            this.label9.TabIndex = 35;
-            this.label9.Text = "Valor:";
-            this.label9.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Nome,
+            this.Modelo,
+            this.Cor,
+            this.Numeracao,
+            this.Descricao,
+            this.Quantidade,
+            this.Valor});
+            this.dataGridView1.Location = new System.Drawing.Point(30, 33);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(343, 230);
+            this.dataGridView1.TabIndex = 19;
             // 
             // Nome
             // 
@@ -749,10 +752,20 @@
             this.Modelo.HeaderText = "Modelo";
             this.Modelo.Name = "Modelo";
             // 
+            // Cor
+            // 
+            this.Cor.HeaderText = "Cor";
+            this.Cor.Name = "Cor";
+            // 
             // Numeracao
             // 
             this.Numeracao.HeaderText = "Numeração";
             this.Numeracao.Name = "Numeracao";
+            // 
+            // Descricao
+            // 
+            this.Descricao.HeaderText = "Descrição";
+            this.Descricao.Name = "Descricao";
             // 
             // Quantidade
             // 
@@ -761,13 +774,8 @@
             // 
             // Valor
             // 
-            this.Valor.HeaderText = "Valor (UN)";
+            this.Valor.HeaderText = "Valor";
             this.Valor.Name = "Valor";
-            // 
-            // Cor
-            // 
-            this.Cor.HeaderText = "Cor";
-            this.Cor.Name = "Cor";
             // 
             // F_Menu
             // 
@@ -780,13 +788,12 @@
             this.Controls.Add(this.list_NovaLista);
             this.Controls.Add(this.group_entrarcomo);
             this.Name = "F_Menu";
-            this.Opacity = 0.93D;
+            this.Opacity = 0.96D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Havaianas, AS LEGÍTIMAS  –  Controle de Estoque";
             this.Load += new System.EventHandler(this.F_Menu_Load);
             ((System.ComponentModel.ISupportInitialize)(this.grid_Listas)).EndInit();
             this.tab_Estoque.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.grid_Estoque)).EndInit();
             this.tab_Cadastro.ResumeLayout(false);
             this.tab_Cadastro.PerformLayout();
             this.Abas_2.ResumeLayout(false);
@@ -805,6 +812,7 @@
             this.menuStrip1.PerformLayout();
             this.group_entrarcomo.ResumeLayout(false);
             this.group_entrarcomo.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -814,7 +822,6 @@
         private System.Windows.Forms.DataGridView grid_Listas;
         private System.Windows.Forms.ComboBox list_NovaLista;
         private System.Windows.Forms.TabPage tab_Estoque;
-        private System.Windows.Forms.DataGridView grid_Estoque;
         private System.Windows.Forms.TabPage tab_Cadastro;
         private System.Windows.Forms.TabControl Abas_2;
         private System.Windows.Forms.TabPage tab_ModeloExistente;
@@ -863,13 +870,15 @@
         private System.Windows.Forms.Button btn_passenter;
         private System.Windows.Forms.TextBox txt_pass;
         private System.Windows.Forms.Label lbl_privilegio;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Nome;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Modelo;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Numeracao;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Quantidade;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Valor;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Cor;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Nome;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Modelo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Cor;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Numeracao;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Descricao;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Quantidade;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Valor;
     }
 }

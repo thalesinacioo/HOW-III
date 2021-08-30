@@ -176,7 +176,6 @@ namespace Controle_de_Estoque
                 passenter_Click((object)sender, (EventArgs)e);
             }
         }
-
         private void rdGerente_CheckedChanged(object sender, EventArgs e)
         {
             AllTabs.Visible = false;
@@ -185,43 +184,32 @@ namespace Controle_de_Estoque
         {
             AllTabs.Visible = false;
         }
-
+        private void wrongPass()
+        {
+            txt_pass.Clear();
+            AllTabs.Visible = false;
+            MessageBox.Show
+                ("Senha incorreta.\nPor favor, tente novamente.");
+        }
         private void passenter_Click(object sender, EventArgs e)
         {
             string passestoquista = "Pass@123", passgerente = "Word@123";
-            if (rd_gerente.Checked == true)
+            
+            if (rd_gerente.Checked == true || rd_estoquista.Checked == true)
             {
-                if (txt_pass.Text == passgerente)
+                if (txt_pass.Text == passgerente || txt_pass.Text == passestoquista)
                 {
-                    Abas_2.Visible = true;
-                    AllTabs.Visible = true;
+                    if (txt_pass.Text == passestoquista) Abas_2.Visible = false; else Abas_2.Visible = true;
+                    if (txt_pass.Text == passgerente && rd_estoquista.Checked == true) wrongPass(); else AllTabs.Visible = true;
                     txt_pass.Clear();
                 }
-                else
-                {
-                    txt_pass.Clear();
-                    MessageBox.Show("Senha incorreta.\nPor favor, tente novamente.");
-                }
-            }
-            else if (rd_estoquista.Checked == true)
-            {
-                if (txt_pass.Text == passestoquista)
-                {
-                    Abas_2.Visible = false;
-                    AllTabs.Visible = true;
-                    txt_pass.Clear();
-                }
-                else
-                {
-                    txt_pass.Clear();
-                    MessageBox.Show("Senha incorreta.\nPor favor, tente novamente.");
-                }
+                else wrongPass();
             }
         }
 
-        private void grid_Estoque_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void textBox3_TextChanged(object sender, EventArgs e)
         {
-
+            
         }
     }
 }
