@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -23,33 +24,13 @@ namespace Controle_de_Estoque
         {
             InitializeComponent();
         }
-        
-        private void btn_Sair_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-        /*
-        private void tabPage1_Click(object sender, EventArgs e)
-        {
 
-        }
-
-        private void lbl_Login_Click(object sender, EventArgs e)
-        {
-
-        }
-        */
         private void tab_Cadastro_Click(object sender, EventArgs e)
         {
             
         }
 
         private void F_Menu_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
         {
 
         }
@@ -62,17 +43,14 @@ namespace Controle_de_Estoque
             }
         }
 
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
         private void babylist()
         {
             list_Numeracao.Items.Clear();
             list_Numeracao.Items.AddRange(
                 new object[]
                 {
-                    "17","18","19","20","21","22"                      /*  babylist    */
+                    /*  babylist    */
+                    "17","18","19","20","21","22"                      
                 }
             );
         }
@@ -82,7 +60,8 @@ namespace Controle_de_Estoque
             list_Numeracao.Items.AddRange(
                  new object[]
                  {
-                    "23","24","25","26","27","28","29","30","31","32"    /*  kidslist    */
+                     /*  kidslist    */
+                    "23","24","25","26","27","28","29","30","31","32"
                  });
         }
         private void adultlist()
@@ -127,7 +106,8 @@ namespace Controle_de_Estoque
 
         private void btn_AdicionarModelo_Click_1(object sender, EventArgs e)
         {
-            if (txt_NomeNovoModelo.Text != "") list_Modelo.Items.Add(txt_NomeNovoModelo.Text);
+            if (txt_NomeNovoModelo.Text != "") 
+                list_Modelo.Items.Add(txt_NomeNovoModelo.Text);
             list_NovaLista.Items.Clear();
 
             int i,
@@ -145,7 +125,6 @@ namespace Controle_de_Estoque
         {
 
         }
-
         private void list_Modelo_SelectedIndexChanged_1(object sender, EventArgs e)
         {
             if (list_Modelo.SelectedIndex == 0) babylist();
@@ -155,14 +134,94 @@ namespace Controle_de_Estoque
             //if (list_Modelo.SelectedIndex == ModelosNovosLista.Rows[0]) ;
         }
 
-        private void loginToolStripMenuItem_Click(object sender, EventArgs e)
+        private void btn_Sair_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btn_Incluir_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void btn_Sair_Click_1(object sender, EventArgs e)
+        private void button1_Click_1(object sender, EventArgs e)
         {
-            Application.Exit();
+
+        }
+
+        private void grid_Listas_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void label7_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void list_NovaLista_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void password_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                passenter_Click((object)sender, (EventArgs)e);
+            }
+        }
+
+        private void rdGerente_CheckedChanged(object sender, EventArgs e)
+        {
+            AllTabs.Visible = false;
+        }
+        private void rdEstoquista_CheckedChanged(object sender, EventArgs e)
+        {
+            AllTabs.Visible = false;
+        }
+
+        private void passenter_Click(object sender, EventArgs e)
+        {
+            string passestoquista = "Pass@123", passgerente = "Word@123";
+            if (rd_gerente.Checked == true)
+            {
+                if (txt_pass.Text == passgerente)
+                {
+                    Abas_2.Visible = true;
+                    AllTabs.Visible = true;
+                    txt_pass.Clear();
+                }
+                else
+                {
+                    txt_pass.Clear();
+                    MessageBox.Show("Senha incorreta.\nPor favor, tente novamente.");
+                }
+            }
+            else if (rd_estoquista.Checked == true)
+            {
+                if (txt_pass.Text == passestoquista)
+                {
+                    Abas_2.Visible = false;
+                    AllTabs.Visible = true;
+                    txt_pass.Clear();
+                }
+                else
+                {
+                    txt_pass.Clear();
+                    MessageBox.Show("Senha incorreta.\nPor favor, tente novamente.");
+                }
+            }
+        }
+
+        private void grid_Estoque_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
