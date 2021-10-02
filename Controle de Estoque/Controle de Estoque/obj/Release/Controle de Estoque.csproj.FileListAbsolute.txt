@@ -1,0 +1,24 @@
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\bin\Release\Controle de Estoque.exe.config
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\bin\Release\Controle de Estoque.exe
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\bin\Release\Controle de Estoque.pdb
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\bin\Release\MySql.Data.dll
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\bin\Release\Google.Protobuf.dll
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\bin\Release\Zstandard.Net.dll
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\bin\Release\K4os.Compression.LZ4.Streams.dll
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\bin\Release\BouncyCastle.Crypto.dll
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\bin\Release\Ubiety.Dns.Core.dll
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\bin\Release\System.Memory.dll
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\bin\Release\System.Buffers.dll
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\bin\Release\K4os.Compression.LZ4.dll
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\bin\Release\K4os.Hash.xxHash.dll
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\bin\Release\System.Numerics.Vectors.dll
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\bin\Release\MySql.Data.xml
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\obj\Release\Controle de Estoque.csproj.AssemblyReference.cache
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\obj\Release\Controle_de_Estoque.F_Menu.resources
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\obj\Release\Controle_de_Estoque.Properties.Resources.resources
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\obj\Release\Controle de Estoque.csproj.GenerateResource.cache
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\obj\Release\Controle de Estoque.csproj.CoreCompileInputs.cache
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\obj\Release\Controle de Estoque.csproj.CopyComplete
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\obj\Release\Controle de Estoque.exe
+D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\obj\Release\Controle de Estoque.pdb
