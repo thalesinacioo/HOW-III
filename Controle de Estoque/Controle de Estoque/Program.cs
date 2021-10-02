@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using MySql.Data.MySqlClient;
 
 namespace Controle_de_Estoque
 {
@@ -19,8 +20,6 @@ namespace Controle_de_Estoque
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new F_Menu());
 
-            string ArquivoDB = @"D:\Users\Andrei Luiz\Documents\GitHub\HOW-III\Controle de Estoque\Controle de Estoque\bin\Debug\db.txt";
-            List<string> lines = File.ReadAllLines(ArquivoDB).ToList();
         }
     }
 }
