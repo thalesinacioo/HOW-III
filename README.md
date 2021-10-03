@@ -4,6 +4,10 @@ Github centralizador do nosso grupo de HOW III.
 Alunos: 
 Andrei, Djavan, Enio, Moraes, Thales.
 
+# Atenção: as senhas de acesso para logar no Controle de estoque é: Estoquista: 123 Gerente: 456
+
+O link para o vídeo de apresentação no youtube é: https://youtu.be/RH6ai7a5Dc0
+
 -------
 **Sobre o HOWIII:**
 
