@@ -8,6 +8,8 @@ Andrei, Djavan, Enio, Moraes, Thales.
 
 O link para o vídeo de apresentação no youtube é: https://youtu.be/RH6ai7a5Dc0
 
+Os mockups podem ser visualizados aqui: https://drive.google.com/file/d/1JRw90Hxd6SZnyKKdZtc5xXfNcFSOwmcT/view
+
 -------
 **Sobre o HOWIII:**
 
