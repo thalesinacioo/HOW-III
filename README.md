@@ -10,6 +10,8 @@ O link para o vídeo de apresentação no youtube é: https://youtu.be/RH6ai7a5D
 
 Os mockups podem ser visualizados aqui: https://drive.google.com/file/d/1JRw90Hxd6SZnyKKdZtc5xXfNcFSOwmcT/view
 
+O relatório pode ser acessado aqui: https://univali-my.sharepoint.com/:w:/g/personal/thales_fernandes_edu_univali_br/ES9-stZruNVEu9XJiA3x99EBPdDBRLTjbqbyo3qbvxvyBQ?e=dslFJR (pessoas logadas no domínio univali com o link apenas)
+
 -------
 **Sobre o HOWIII:**
 
